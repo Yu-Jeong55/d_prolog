@@ -1,0 +1,138 @@
+.master-paper {
+  margin: 30px auto;
+  padding: 20px;
+  width: 85%;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+    .title-input {
+      flex: 1;
+      padding: 12px 16px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      background-color: #f5f5f5;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+      &::placeholder {
+        color: #999;
+      }
+
+      &:focus {
+        outline: none;
+        background-color: #fff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    .button-group {
+      display: flex;
+      gap: 10px;
+      margin-left: 20px;
+
+      button {
+        padding: 8px 16px;
+        border: none;
+        border-radius: 6px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+
+        &.save-button {
+          background-color: #4d4c7d;
+          color: white;
+
+          &:hover {
+            background-color: #3c3b63;
+          }
+        }
+      }
+    }
+  }
+
+  .master-content {
+    .question-section {
+      border-radius: 8px;
+      background-color: #f5f5f5;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      padding: 20px;
+      margin-bottom: 30px;
+
+      .question-wrapper,
+      .answer-wrapper {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 16px;
+
+        label {
+          font-weight: 500;
+          color: #333;
+          min-width: 30px;
+          padding: 12px 0;
+          text-align: center;
+        }
+
+        input,
+        textarea {
+          flex: 1;
+          padding: 12px 16px;
+          border: none;
+          border-radius: 8px;
+          background-color: #f5f5f5;
+          font-size: 14px;
+
+          &::placeholder {
+            color: #999;
+          }
+
+          &:focus {
+            outline: none;
+            background-color: #f8f8f8;
+          }
+        }
+      }
+
+      .textarea-container {
+        flex: 1;
+        position: relative;
+
+        textarea {
+          width: 100%;
+          min-height: 200px;
+          resize: vertical;
+        }
+
+        .char-count {
+          position: absolute;
+          bottom: 8px;
+          right: 16px;
+          font-size: 12px;
+          color: #999;
+        }
+      }
+    }
+  }
+
+  .add-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d4c7d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 20px auto;
+    transition: transform 0.2s ease;
+    font-size: 24px;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

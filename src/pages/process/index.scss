@@ -1,0 +1,21 @@
+.process-page {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+  .process-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin: 0 auto;
+
+    .template-container {
+      flex: 1;
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      padding: 20px;
+    }
+  }
+}

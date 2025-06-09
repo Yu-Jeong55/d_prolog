@@ -1,0 +1,16 @@
+.calendar {
+  padding: 3% 7%;
+}
+
+.calendarBody {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  padding: 10px;
+  border-radius: 3px;
+
+  .line {
+    background: rgb(240, 240, 240);
+    width: 100%;
+  }
+}

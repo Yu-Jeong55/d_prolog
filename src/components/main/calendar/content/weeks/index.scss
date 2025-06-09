@@ -1,0 +1,13 @@
+.week {
+  width: calc(100% / 7);
+  text-align: center;
+}
+
+.weeks {
+  color: rgb(106, 106, 106);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}

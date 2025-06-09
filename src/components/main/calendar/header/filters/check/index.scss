@@ -1,0 +1,24 @@
+.filter-box {
+  display: flex;
+  width: 270px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0.5px solid rgb(203, 203, 203);
+  box-shadow: 5px 5px 5px -5px gray;
+
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.filter-checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  input {
+    width: 15px;
+    height: 15px;
+    accent-color: rgb(54, 48, 98);
+  }
+}

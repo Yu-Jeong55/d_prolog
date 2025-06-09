@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "data": ["src/data/*"],
+      "assets": ["src/assets/*"],
+      "components": ["src/components/*"],
+      "pages": ["src/pages/*"],
+      "state": ["src/state/*"]
+    }
+  },
+  "include": ["src", "**/*.js", "**/*.jsx", "copy-dist.cjs"],
+  "exclude": ["node_modules"]
+}

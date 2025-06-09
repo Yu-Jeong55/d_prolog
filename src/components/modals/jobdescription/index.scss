@@ -1,0 +1,54 @@
+.jd-data {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 30px;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.jd-title {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 10px;
+}
+
+.jd-contents {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 10px;
+  overflow: auto;
+}
+
+.jd-company-name {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.jd-job-title {
+  font-size: 20px;
+}
+
+.jd-jobs {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.jd-deadline {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  padding-top: 8px;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
+.jd-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}

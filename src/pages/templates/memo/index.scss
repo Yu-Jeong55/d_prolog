@@ -1,0 +1,64 @@
+.memo-template {
+  height: 100%;
+  padding: 20px;
+  background-color: #f5f5f5;
+
+  p {
+    font-size: 20px;
+    font-weight: 600;
+
+    padding: 16px 8px;
+  }
+
+  .memo-wrapper {
+    display: flex;
+    padding: 20px;
+    background-color: #f8f9fa;
+    margin-bottom: 20px;
+
+    textarea {
+      width: 100%;
+      border: none;
+      min-height: 200px;
+      padding: 0 10px;
+      font-size: 18px;
+      background-color: #f8f9fa;
+    }
+
+    &:focus {
+      outline: none;
+      border-color: #4d4c7d;
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+      color: #ff6b6b;
+      cursor: pointer;
+
+      &:hover {
+        color: #ff5252;
+      }
+    }
+  }
+
+  .add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #4d4c7d;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: #e9ecef;
+    }
+
+    svg {
+      margin-right: 8px;
+    }
+  }
+}
